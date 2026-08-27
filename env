@@ -1,0 +1,15 @@
+# Django
+DJANGO_SECRET_KEY=change-me-to-a-random-secret
+DJANGO_DEBUG=1
+DJANGO_SETTINGS_MODULE=config.settings.dev
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,backend
+
+# Postgres
+POSTGRES_DB=fitness
+POSTGRES_USER=fitness_user
+POSTGRES_PASSWORD=fitness_pass
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+
+# CORS
+CORS_ALLOWED_ORIGINS=http://localhost:5173
